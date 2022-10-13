@@ -4,18 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" type="image/png" href="./assets/logo/Booki-small.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./css/normalize.css"/>
+    <script src="https://kit.fontawesome.com/01b7f13aba.js" crossorigin="anonymous"></script>
     <title>Booki</title>
 </head>
 <body>
     <nav class="nav__container">
         <div class="nav__content">
-            <img class="nav__logo" src="./assets/logo/Booki@3x.png" alt="Booki"/>
+            <div class="nav__logo">
+                <img src="./assets/logo/Booki@3x.png" alt="Booki"/>
+            </div>
             <div class="nav__items">
                 <div class="nav__item active"><a href="#">Hébergements</a></div>
                 <div class="nav__item"><a href="#">Activités</a></div>
             </div>
         </div>
     </nav>
+    <form class="lodging__container">
+        <div class="lodging__content">
+            <div class="lodging__search">
+                <h1 class="text---title">Trouvez votre hébergement pour des vacances de rêve</h1>
+                <span class="text---sub">En plein centre ville ou en pleine nature</span>
+                <div class="button---search">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input class="input-text" type="text">
+                    <input class="input-search" type="submit" value="Rechercher">
+                </div>
+            </div>
+            <div class="filter__container">
+                <span class="filter__title">Filtres</span>
+                <div class="filter__items">
+                    <div class="filter__item">
+                        <i class="fa-solid fa-money-bill-wave"></i>
+                        <span class="filter---text">Économique</span>
+                    </div>
+                    <div class="filter__item">
+                        <i class="fa-solid fa-person fa-lg"></i>
+                        <span class="filter---text">Familial</span>
+                    </div>
+                    <div class="filter__item">
+                        <i class="fa-solid fa-heart"></i>
+                        <span class="filter---text">Romantique</span>
+                    </div>
+                    <div class="filter__item">
+                        <i class="fa-solid fa-dog"></i>
+                        <span class="filter---text">Animaux autorisés</span>
+                    </div>
+                </div>                
+            </div>
+            <div class="lodging---info">
+                <i class="fa-solid fa-info fa-xs"></i>
+                <span class="text---sub">Plus de 500 logements sont disponibles dans cette ville</span>
+            </div>
+        </div>
+    </form>
 </body>
 </html>
+
