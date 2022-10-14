@@ -1,3 +1,4 @@
+html { scroll-behavior: smooth }
 * {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
@@ -16,9 +17,9 @@
    border: none;
 }
 
-/* body {
-    background-color: #63767c;
-} */
+body {
+    /* background-color: #63767c; */
+}
 
 /* TEXT STYLES ----------------------------------------------------------------------------------- */
 .text---title {
@@ -27,10 +28,28 @@
     line-height: 26px;
 }
 
+.text---sub-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+
 .text---sub {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+}
+
+.card---title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.card---sub {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
 }
 
 /* NAV BAR ----------------------------------------------------------------------------------- */
@@ -162,7 +181,7 @@
     font-weight: 700;
     font-size: 18px;
 
-    padding: 13px 16px;
+    padding: 12px 16px 13px 16px;
     color: white;
     background: #0065FC;
     border: 1px solid #0065fc;
@@ -173,8 +192,6 @@
 
     transition: all .5s ease;
 }
-
-.input-search:hover { border-color: #DEEBFF }
 
 .search---icon {
     display: flex;
@@ -211,10 +228,7 @@
     align-items: center;
 
 }
-.filter__title {
-    font-weight: 700;
-    font-size: 18px;
-}
+
 .filter__items {
     display: flex;
     width: 90%;
@@ -253,8 +267,8 @@
 .filter__item:hover::after { width: calc(100% - 8px) }
 
 .filter__item:hover i {
-    width: 40px;
-    height: 40px;
+    width: 42px;
+    height: 42px;
     left: 0;
 }
 
@@ -304,24 +318,155 @@
 
 .lodging__hotels {
     display: flex;
-    width: 100%;
+    justify-content: space-between;
+    width: 95%;
+    height: 626px;
 }
 
 .lodging---marseille {
     display: flex;
     flex-direction: column;
     
-    width: 50%;
+    width: 65%;
+    
+    background: #F2F2F2;
+    border-radius: 20px;
+    padding: 42px 50px 43px 50px;
 }
 
+.lodging---marseille h1 { margin-bottom: 23px }
+
 .hotels__cards {
+    align-self: center;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
 }
 
 .hotel__card {
-    flex: 33%;
-
+    width: 100%;
+    height: 199px;
+    
     display: flex;
     flex-direction: column;
+
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    border-radius: 20px;
+    background: #FFFFFF;
+
+    transition: .5s ease all;
+}
+
+.hotel__card img {
+    align-self: center;
+    width: 276px;
+    height: 124px;
+    object-fit: cover;
+
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+   
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.card__info {
+    margin-top: 4px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 90%;
+    height: 60px;
+}
+
+.card---stars i { color: #0065FC }
+
+.card---stars i:last-child { color: #F2F2F2 }
+
+.show-more { 
+    cursor: pointer;
+    width: fit-content
+}
+
+.lodging---most-popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 30%;
+    
+    background: #F2F2F2;
+    border-radius: 20px;
+    padding: 41px 40px 34px 40px;
+}
+
+.most-pop---title {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 26px;
+}
+
+.most-pop---title i { color:#0065FC}
+
+.most-pop__cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.most-pop__card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    border-radius: 20px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+.most-pop__card img {
+    width: 167px;
+    height: 154px;
+    object-fit: cover;
+
+    border: 5px solid #FFFFFF;
+    border-radius: 20px 0px 0px 20px;
+   
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.card__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: 40px;
+}
+
+.most-pop-card__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 85%;
+
+    padding: 10px;
+    margin-left: 10px;
 }
