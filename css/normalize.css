@@ -447,7 +447,7 @@ body {
 }
 
 .most-pop__card img {
-    width: 167px;
+    width: 200px;
     height: 154px;
     object-fit: cover;
 
@@ -459,7 +459,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+    width: 100%;
     height: 40px;
 }
 
@@ -490,12 +490,12 @@ body {
 
     background: #FFFFFF;
     border-radius: 20px;
-
+    width: 50%;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
 .activities__card img {
-    width: 342px;
+    width: 100%;
     height: 499px;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
