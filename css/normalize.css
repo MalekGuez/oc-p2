@@ -297,6 +297,7 @@ html { scroll-behavior: smooth }
     font-weight: 700;
     font-size: 17px;
     padding: 10px 20px 10px 55px;
+    transition: .5s ease all;
 }
 
 .lodging--info {
@@ -667,18 +668,7 @@ html { scroll-behavior: smooth }
         margin-bottom: 17px
     }
 
-    .filter__item::after {
-        content: '';
-        position: absolute;
-        left: 8px;
-        top: 0;
-        z-index: -1;
-        width: 0;
-        height: 48px;
-        background: #DEEBFF;
-        border-radius: 25px;
-        transition: .5s ease all;
-    }
+    .filter__item::after { height: 48px }
     
     .filter__item:hover::after { width: calc(100% - 7px) }
     
