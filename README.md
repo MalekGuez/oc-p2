@@ -1,8 +1,8 @@
-### <img src="https://raw.githubusercontent.com/MalekGuez/assets/master/openclassrooms/logo.png" width="35" align="center"/> &nbsp;Projet 2
+## <img src="https://raw.githubusercontent.com/MalekGuez/assets/master/openclassrooms/logo.png" width="35" align="center"/> &nbsp;Projet 2
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/MalekGuez/assets/master/openclassrooms/p2/booki.png" />
-  <p><i>Transformez une maquette en site web avec HTML & CSS</i></p>
+  <h2><i>Transformez une maquette en site web avec HTML & CSS</i></h2>
 </div>
 
 <b>Booki</b>, site Internet qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.
