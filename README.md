@@ -7,4 +7,4 @@
 
 <b>Booki</b>, site Internet qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.
 
-![mainPage](https://raw.githubusercontent.com/MalekGuez/assets/master/openclassrooms/main-page.png)
+![mainPage](https://raw.githubusercontent.com/MalekGuez/assets/master/openclassrooms/p2/main-page.png)
