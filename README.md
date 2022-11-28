@@ -1,4 +1,4 @@
-### <img src="https://raw.githubusercontent.com/MalekGuez/assets/master/openclassrooms/logo.png" width="35" align="center"/> &nbsp;Projet 3
+### <img src="https://raw.githubusercontent.com/MalekGuez/assets/master/openclassrooms/logo.png" width="35" align="center"/> &nbsp;Projet 2
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/MalekGuez/assets/master/openclassrooms/p2/booki.png" />
